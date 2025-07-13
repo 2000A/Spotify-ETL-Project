@@ -21,6 +21,10 @@ To do this, we’ve built a fully automated data pipeline using AWS services and
 ---
 
 ## 🧩 Architecture
+
+<img width="1840" height="1120" alt="architure png" src="https://github.com/user-attachments/assets/aac883f9-6aef-4faa-b077-8a0cecd724b4" />
+
+
 Spotify API --> AWS Lambda (Extract) --> S3 (Raw Data)
 ↑
 CloudWatch (Daily Trigger)
